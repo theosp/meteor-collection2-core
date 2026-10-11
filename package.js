@@ -22,6 +22,8 @@ Package.onUse(function(api) {
   // Allow us to detect 'insecure'.
   api.use('insecure@1.0.0', {weak: true});
 
+  api.use("justdoinc:justdo-core-helpers@1.0.0");
+
   api.addFiles([
     'lib/collection2.js',
   ]);
